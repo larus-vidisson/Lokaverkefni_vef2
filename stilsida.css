@@ -1,0 +1,148 @@
+body {
+	background: #4f8fff;
+	color: white;
+	min-height: auto;
+}
+.container {
+	max-width: 60em;
+	margin: 0 auto;
+}
+.orans {
+	background: orange;
+	height: 50em;
+}
+header {
+	font-family: 'Kavivanar', cursive;
+}
+h2 {
+	text-align: right;
+}
+p {
+	font-family: 'Lato', sans-serif;
+	max-width: 60em;
+	margin: 0 auto;
+	font-size: 20px;
+}
+blockquote {
+	font-family: 'Lato', sans-serif;
+	background-color: rgb(246,169,37.5);
+}
+.btop {
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+
+	display: block;
+	border-radius: 50%;
+	padding: 0 .50em;
+	font-size: 2.50em;
+	color: #0064CE;
+	background: #fff;
+	content: "&#8678"
+}
+.innriMenu {
+	display: flex;
+	flex-flow: row;
+
+	background-color: #0064CE;
+	border-color: #0064CE;
+	border-radius: .4em;
+	margin-top: 2em;
+}
+.innriMenu a {
+	display: block;
+	padding: .4em;
+	color: #F7D47E;
+	background-color: #0064CE;
+	border-right: 1px solid #fff;
+	font-size: 1em;
+}
+.innriMenu a:hover {
+	color: #0064CE;
+	background-color: #F7D47E;
+}
+.innriMenu a:last-child {
+	border-left: 0 solid #fff;
+	margin-left: 3em;
+}
+.einn {
+	color: #ff8899;
+	background-image: url("asap-rocky.jpg");
+	background-color: #cccccc;
+  	height: 1000px;
+
+}
+.tveir {
+	color:blue;
+	background-image: url("tyler.jpg");
+	background-color: #cccccc;
+	height: 1000px;
+}
+.thrir {
+	color: yellow;
+	background-image: url("post.png");
+	background-color: #cccccc; 
+  	height: 1000px;
+}
+.fjorir {
+	color: #a30600 ;
+	background-image: url("maxresdefault.jpg");
+	background-color: #cccccc;
+	height: 1000px;
+}
+.fimm {
+	color: #010;
+	background-image: url("kendrick.jpg");
+	background-color: #cccccc;
+  	height: 1000px;
+}
+.sex {
+	color: #e54852 ;
+	background-image: url("afro.jpg");
+	background-color: #cccccc;
+	height: 1000px;
+}
+.mid {
+	text-align: center;
+}
+section {
+	margin: 0 auto;
+}
+h3 {
+	font-size: 2em;
+	text-align: center;
+}
+footer {
+	height: 17em;
+}
+.col-1-2 {
+	float: left;
+	padding: 1em;
+	width: 29%;
+}
+a {
+	color: white;
+	font-size: 25px;
+}
+.btop{
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+
+	display: black;
+	border-radius: 50%;
+	padding: 0 .5em;
+	font-size: 2.5em;
+	color: blue;
+	background:;
+}
+.afro,
+.kend,
+.kid,
+.post,
+.tyler,
+.rocky{
+	margin: auto;
+	text-align: center;
+	margin-top: 75px;
+}
